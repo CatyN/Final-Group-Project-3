@@ -10,7 +10,7 @@
   }
   
   .bg-image {
-    background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+    background-image: url('https://source.unsplash.com/XkKCui44iM0');
     background-size: cover;
     background-position: center;
   }
@@ -24,6 +24,8 @@
     letter-spacing: 0.05rem;
     padding: 0.75rem 1rem;
     border-radius: 2rem;
+    background-color: #486d87 ;
+    border-color: #486d87 ;
   }
   
   .form-label-group {
@@ -129,7 +131,7 @@
   -------------------------------------------------- */
   .btn-group-toggle{
     margin-bottom: 24px;
-    border-radius: 2rem;
+    
   }
 /* HomePage
   -------------------------------------------------- */
@@ -181,4 +183,15 @@
     header video {
       display: none;
     }
+  }
+
+/* HomePage
+  -------------------------------------------------- */
+  .card-img-top{
+    background-size: auto;
+    background-position: center;
+  }
+  #cardOne{
+    background: url('https://source.unsplash.com/4G_OwmSgOEA') ;
+    background-size: cover;
   }
