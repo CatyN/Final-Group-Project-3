@@ -10,7 +10,7 @@
   }
   
   .bg-image {
-    background-image: url(../img/priscilla-du-preez-XkKCui44iM0-unsplash\ \(1\).jpg);
+    background-image: url(../img/sub-category\ hiking.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -118,10 +118,15 @@
 
 /* Toogle Button
   -------------------------------------------------- */
-  .btn-group-toggle{
-    margin-bottom: 24px;
-    
+  .btn-secondary{
+    background-color: #0C3357;
+    border-radius: 10px;
+  
   }
+  .btn-secondary active mb-4{
+    background-color: #0C3357;
+  }
+  
 /* HomePage
   -------------------------------------------------- */
 
@@ -295,6 +300,24 @@
   height: 48px;
   font-size: 20px;
 }
+
+.btn-primary{
+  background-color: #0C3357;
+  border-color:#0C3357;
+  text
+}
+
+.btn-primary:hover{
+  background-color: #2F6290;
+  border-color: #2F6290;
+}
+
+.btn-light{
+  background-color: #A7C0E5;
+  border-color: #A7C0E5;
+  color: #0C3357;
+}
+
  /* Google & Facebook Buttons
   -------------------------------------------------- */
 
@@ -319,3 +342,11 @@
     margin-top: 32px;
 
   }
+   /* Fonts
+  -------------------------------------------------- */
+.username-heading{
+  color: #E79F14;
+}
+.login-heading{
+  color: #0C3357;
+}

@@ -23,11 +23,12 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-9 col-lg-8 mx-auto">
-                    <h3 class="login-heading mb-4">Welcome back!</h3>
+                    <h3 class="login-heading mb-4">Are you
+                      ready to be a Social Butterfly?</h3>
                     <form>
                         <!-- Toogle Button -->
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label class="btn btn-secondary active">
+                        <div class="btn-group btn-group-toggle col-sm-7 text-center" data-toggle="buttons">
+                            <label class="btn btn-secondary active mb-4">
                               <input type="radio" name="options" id="option1" autocomplete="off" checked> Login
                             </label>
                             <label class="btn btn-secondary">
@@ -35,26 +36,31 @@
                             </label>
                           </div>
                         <br>
-
+                        <div class="form-label-group">
+                          <input type="email" id="inputName" class="form-control shadow-sm" placeholder="Sam Brown" required autofocus>
+                          <label for="inputName">Name</label>
+                        </div>
 
                       <div class="form-label-group">
-                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                        <input type="email" id="inputEmail" class="form-control shadow-sm" placeholder="Email address" required autofocus>
                         <label for="inputEmail">Email address</label>
                       </div>
       
                       <div class="form-label-group">
-                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                        <input type="password" id="inputPassword" class="form-control shadow-sm" placeholder="Password" required>
                         <label for="inputPassword">Password</label>
                       </div>
-      
-                      <div class="custom-control custom-checkbox mb-3">
-                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                        <label class="custom-control-label" for="customCheck1">Remember password</label>
+
+                      <div class="form-label-group">
+                        <input type="password" id="inputPassword" class="form-control shadow-sm" placeholder="Confirm password" required>
+                        <label for="inputPassword">Confirm Password</label>
                       </div>
-                      <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+      
+      
+                      <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2 shadow-sm" type="submit">JOIN NOW</button>
                       <div class="text-center">
                         <a class="small" href="#">Forgot password?</a></div>
-
+                        
 
                         <!-- Google Buttons -->
                         <hr class="my-4">
