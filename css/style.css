@@ -182,6 +182,9 @@
   .progress{
     border-radius: 15px;
   }
+  .progress-bar{
+    background-color: #486d87 ;
+  }
 
 
 /* Card Group Details

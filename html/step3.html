@@ -18,14 +18,13 @@
     <!-- Progress -->
     <br>
     <div class="progress">
-        <div class="progress-bar " role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">30%</div>
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
       </div>
     <!-- Forms --> 
     <form>
         <br>
         <div class="form-group row text-center">
             <label for="date-input" class="col-11 col-form-label">When is your birthday?</label>
-            
             <div class="col-11">
               <input class="form-control" type="date" value="2020-06-26" id="date-input">
             </div>
@@ -34,8 +33,7 @@
           <br>
     
         <fieldset class="form-group text-center">
-        <label for="textarea" class="col-12 " >How do you identify?</label>
-        
+        <label for="textarea" class="col-11 " >How do you identify?</label>
           <div class="custom-control custom-radio custom-control-inline">
             <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
             <label class="custom-control-label" for="customRadioInline1"> Female</label>
@@ -49,8 +47,13 @@
             <label class="custom-control-label" for="customRadioInline3">Other</label>
           </div>
         </fieldset>
-        <button type="button" class="btn btn-outline-pri mary">Previous</button>
-        <button type="button" class="btn btn-outline-primary">Next</button>
+        <nav aria-label="Page navigation text-center">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
       </form>
 
 
