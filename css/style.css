@@ -118,10 +118,15 @@
 
 /* Toogle Button
   -------------------------------------------------- */
-  .btn-group-toggle{
-    margin-bottom: 24px;
-    
+  .btn-secondary{
+    background-color: #0C3357;
+    border-radius: 10px;
+  
   }
+  .btn-secondary active mb-4{
+    background-color: #0C3357;
+  }
+  
 /* HomePage
   -------------------------------------------------- */
 
@@ -291,7 +296,6 @@
   width:220px ;
   height: 48px;
   font-size: 20px;
-
 }
 
 .btn-primary{
@@ -339,4 +343,7 @@
   -------------------------------------------------- */
 .username-heading{
   color: #E79F14;
+}
+.login-heading{
+  color: #0C3357;
 }
