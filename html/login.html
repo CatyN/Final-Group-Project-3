@@ -22,20 +22,21 @@
             <div class="login d-flex align-items-center py-5">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-9 col-lg-8 mx-auto">
+                  <div class="col-md-9 col-lg-8 mx-auto align-items-center">
                     <h3 class="login-heading mb-4">Are you
                       ready to be a Social Butterfly?</h3>
                     <form>
                         <!-- Toogle Button -->
-                        <div class="btn-group btn-group-toggle col-sm-7 text-center" data-toggle="buttons">
-                            <label class="btn btn-secondary active mb-4">
-                              <input type="radio" name="options" id="option1" autocomplete="off" checked> Login
-                            </label>
-                            <label class="btn btn-secondary">
-                              <input type="radio" name="options" id="option2" autocomplete="off"> Sign Up
-                            </label>
-                          </div>
-                        <br>
+                        <div class="btn-group btn-group-toggle mb-5 col-lg-10" data-toggle="buttons">
+                          <label class="btn btn-secondary active text-uppercase">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked> Login 
+                          </label>
+                          <label class="btn btn-secondary text-uppercase">
+                            <input type="radio" name="options" id="option2" autocomplete="off"> Sign up
+                          </label>
+          
+                        </div>
+
                         <div class="form-label-group">
                           <input type="email" id="inputName" class="form-control shadow-sm" placeholder="Sam Brown" required autofocus>
                           <label for="inputName">Name</label>
@@ -51,16 +52,16 @@
                         <label for="inputPassword">Password</label>
                       </div>
 
-                      <div class="form-label-group">
+                      <div class="form-label-group mb-5">
                         <input type="password" id="inputPassword" class="form-control shadow-sm" placeholder="Confirm password" required>
                         <label for="inputPassword">Confirm Password</label>
                       </div>
       
-      
-                      <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2 shadow-sm" type="submit">JOIN NOW</button>
                       <div class="text-center">
-                        <a class="small" href="#">Forgot password?</a></div>
-                        
+                      <button type="button" class="btn btn-primary shadow mb-4" onclick="window.location.href='welcome.html';">Join Now</button>
+                      <div class="text-center ">
+                        <a class="small" href="#">By signing up,you agree to the Term of Services </a></div>
+                      </div>
 
                         <!-- Google Buttons -->
                         <hr class="my-4">

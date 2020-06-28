@@ -14,7 +14,13 @@
     background-size: cover;
     background-position: center;
   }
-  
+  .bg-image-welcome{
+    background-image: url(../img/elevate-mL19pj3_5Iw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+
   .login-heading {
     font-weight: 300;
   }
@@ -28,6 +34,8 @@
     border-color: #486d87 ;
   }
   
+
+
   .form-label-group {
     position: relative;
     margin-bottom: 1rem;
@@ -116,17 +124,6 @@
     }
   }
 
-/* Toogle Button
-  -------------------------------------------------- */
-  .btn-secondary{
-    background-color: #0C3357;
-    border-radius: 10px;
-  
-  }
-  .btn-secondary active mb-4{
-    background-color: #0C3357;
-  }
-  
 /* HomePage
   -------------------------------------------------- */
 
@@ -299,12 +296,14 @@
   width:220px ;
   height: 48px;
   font-size: 20px;
+  font-weight: 200;
 }
+
+
 
 .btn-primary{
   background-color: #0C3357;
   border-color:#0C3357;
-  text
 }
 
 .btn-primary:hover{
@@ -317,6 +316,17 @@
   border-color: #A7C0E5;
   color: #0C3357;
 }
+/* Toogle Button
+  -------------------------------------------------- */
+  .btn-secondary{
+    background-color: #0C3357;
+    border-radius: 0px, 10px, 10px, 10px;
+  
+  }
+  .active{
+    background-color: #A7C0E5;
+  }
+  
 
  /* Google & Facebook Buttons
   -------------------------------------------------- */
@@ -367,4 +377,15 @@
   padding-right: 1rem;
   padding-top: 1rem;
   font-size: 16px;
+}
+
+/* Fonts
+  -------------------------------------------------- */ 
+
+.logo{
+  background-image: url(../img/SB_Large_Logo_Medium.png);
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 62px;
 }
