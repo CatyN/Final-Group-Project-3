@@ -311,11 +311,17 @@
   border-color: #2F6290;
 }
 
+.btn-primary:active{
+  background-color: #03213C;
+  border-color: #03213C;
+}
+
 .btn-light{
   background-color: #A7C0E5;
   border-color: #A7C0E5;
   color: #0C3357;
 }
+
 /* Toogle Button
   -------------------------------------------------- */
   .btn-secondary{
@@ -334,13 +340,14 @@
   .btn-google {
     color: white;
     background-color: #ea4335;
-    border-radius: 2rem;
+    width: 284px;
+
   }
   
   .btn-facebook {
     color: white;
     background-color: #3b5998;
-    border-radius: 2rem;
+    width: 284px;
   }
  /* Forms
   -------------------------------------------------- */
