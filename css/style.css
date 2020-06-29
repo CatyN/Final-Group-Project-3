@@ -341,6 +341,7 @@
     color: white;
     background-color: #ea4335;
     width: 284px;
+    font-size: 18px;
 
   }
   
@@ -348,6 +349,7 @@
     color: white;
     background-color: #3b5998;
     width: 284px;
+    font-size: 18px;
   }
  /* Forms
   -------------------------------------------------- */
@@ -358,6 +360,10 @@
   .form-group{
     margin-top: 32px;
 
+  }
+   /*
+  .form-control{
+    width: 70%;
   }
    /* Fonts
   -------------------------------------------------- */
