@@ -179,6 +179,11 @@
    /* Steps Cards
   -------------------------------------------------- */
 
+/* .card{
+  text-
+} */
+
+
 /* Steps
   -------------------------------------------------- */
 
@@ -228,27 +233,27 @@
   
 
 #groupOne {
-  background-image: url(../img/priscilla-du-preez-XkKCui44iM0-unsplash\ \(1\).jpg);
+  background-image: url(../img/art\ 1.jpg);
 } 
 
 #groupTwo {
-  background-image: url(../img/sports\ 1.jpg);
+  background-image: url(../img/parenting\ 2.jpg);
 } 
 
 #groupThree {
-  background-image: url(../img/priscilla-du-preez-XkKCui44iM0-unsplash\ \(1\).jpg);
+  background-image: url(../img/fitness\ 2\ .jpg);
 } 
 
 #groupFour {
-  background-image: url(../img/priscilla-du-preez-XkKCui44iM0-unsplash\ \(1\).jpg);
+  background-image: url(../img/sports\ 3.jpg);
 } 
 
 #groupFive {
-  background-image: url(../img/priscilla-du-preez-XkKCui44iM0-unsplash\ \(1\).jpg);
+  background-image: url(../img/books\ 2.jpg);
 } 
 
 #groupSix {
-  background-image: url(../img/priscilla-du-preez-XkKCui44iM0-unsplash\ \(1\).jpg);
+  background-image: url(../img/fitness\ 1.jpg);
 } 
 
 .groupDetails {
@@ -408,7 +413,7 @@
   font-size: 16px;
 }
 
-/* Fonts
+/* Logo Image
   -------------------------------------------------- */ 
 
 .logo{
@@ -418,3 +423,122 @@
     width:auto;
     height: 62px;
 }
+
+
+#footer {
+  background-color: #3D6E89;
+  display: grid;
+  grid-template-columns: 5% 70% 25%;
+  grid-template-rows: 80% 20%;
+  grid-template-areas:
+  "logoFooter content buttons"
+  "copyright copyright copyright"
+}
+
+.content {
+  grid-area: content;
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: white;
+}
+.content p {
+  font-family: 'Poppins', sans-serif;
+  width: 30px;
+  height: 23px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  white-space: nowrap;
+}
+
+.logoFooter {
+ grid-area: logoFooter;
+ width: 100px;
+ height: auto;
+ margin-top: -5px;
+ margin-left: -3px;
+}
+
+  
+.buttons {
+  grid-area:buttons;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+.language {
+  width: 160px;
+  height: 23px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid white; 
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.feedback {
+  width: 180px;
+  height: 23px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid white; 
+  cursor: pointer;
+
+}
+.feedback :hover {
+  color: #3686B2;
+}
+
+.copyright {
+grid-area: copyright;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-color: black;
+}
+.copyright p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: white;
+  margin: auto;
+}
+
+.sb-nav-fixed{
+  background-color: #F4FBFF;
+}
+
