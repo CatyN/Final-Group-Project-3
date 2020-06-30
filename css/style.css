@@ -369,13 +369,14 @@
  /* Forms
   -------------------------------------------------- */
   .col-form-label{
-    
     position: static;
+    font-size: 54px;
   }
+
   .form-group{
     margin-top: 32px;
-
   }
+
    /*
   .form-control{
     width: 70%;
