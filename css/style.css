@@ -4,11 +4,23 @@
     --input-padding-y: 0.75rem;
   }
   
+  .header {
+    border-radius: 0px 0px 150px 150px;
+  }
+
   .login,
   .image {
     min-height: 100vh;
   }
-  
+
+  .heroLogo {
+    padding: 2px 10px 2px 10px;
+    border: 3px solid #FFB800;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
   .bg-image {
     background-image: url(../img/sub-category\ hiking.jpg);
     background-size: cover;
@@ -33,7 +45,18 @@
     background-color: #486d87 ;
     border-color: #486d87 ;
   }
+
+  .herop {
+    font-family:'Poppins', sans-serif ;
+    font-weight: bold;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+  }
   
+  .heading {
+    margin-top: 20px;
+  }
 
 
   .form-label-group {
@@ -124,6 +147,8 @@
     }
   }
 
+   
+
 /* HomePage
   -------------------------------------------------- */
 
@@ -197,21 +222,62 @@
   
 /* Categories Details
   -------------------------------------------------- */    
-  .categories {
-    display: flex;
-    align-items: center;
-    height: 132px;
-    width: 199px;
-    justify-content: center; 
-    background-position: 0vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 12px;
-    border-top: transparent;
-    border-radius: 10px 10px 40px 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
-    font-size: 28px;
-  }
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 132px;
+  width: 199px;
+  justify-content: center; 
+  background-position: 0vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 12px;
+  border-top: transparent;
+  border-radius: 10px 10px 40px 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+  font-size: 28px;
+}
+
+.categories p , .categText{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+#categOne {
+  background-image: url(../img/art\ 1\ 1\ .jpg);
+}
+#categTwo {
+  background-image: url(../img/fashion\ 2\ .jpg);
+}
+#categThree {
+  background-image: url(../img/parenting\ 1.jpg);
+}
+#categFour {
+  background-image: url(../img/fitness\ 1.jpg);
+}
+#categFive {
+  background-image: url(../img/movies\ 1.jpg);
+}
+#categSix {
+  background-image: url(../img/music.jpg);
+}
+#categSeven {
+  background-image: url(../img/books\ 4.jpg);
+}
+#categEight {
+  background-image: url(../img/religion\ 1.jpg);
+}
+#categNine {
+  background-image: url(../img/sports\ .jpg);
+}
+#categTen {
+  background-image: url(../img/video\ games\ 2.jpg);
+}
 
 /* Card Group Details
   -------------------------------------------------- */    
@@ -397,10 +463,12 @@
 
 .card {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   height: 141px;
   align-content: center;
-  background-color: #FFB800;
+  background-position: 0vw;
+  background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center;
   text-align: center;
   background-position: 0vw;
@@ -413,6 +481,42 @@
   font-size: 16px;
 }
 
+.card p {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.card2 p {
+  color: black;
+}
+
+#hiw1 {
+  background-image: url(../img/hiw1.jpg);
+}
+#hiw2 {
+  background-image: url(../img/hiw2.jpg);
+}
+#hiw3 {
+  background-image: url(../img/hiw3.jpg);
+}
+
+.text-center {
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  display: flex;
+  flex-direction: row;
+  font-family:'Poppins', sans-serif ;
+  font-weight: bold;
+  color: white;
+}
+ .two {
+   color: black;
+ }
+
 /* Logo Image
   -------------------------------------------------- */ 
 
@@ -422,8 +526,45 @@
     background-position: center;
     width:auto;
     height: 62px;
+    
 }
 
+
+/* Are You Ready
+  -------------------------------------------------- */ 
+.discover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.ready p {
+  font-family:'Poppins', sans-serif ;
+  font-weight: bold;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.manymore {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family:'Poppins', sans-serif ;
+  font-weight: bold;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+
+/*Footer
+  -------------------------------------------------- */ 
 
 #footer {
   background-color: #3D6E89;
