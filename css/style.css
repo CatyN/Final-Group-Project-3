@@ -199,21 +199,62 @@
   
 /* Categories Details
   -------------------------------------------------- */    
-  .categories {
-    display: flex;
-    align-items: center;
-    height: 132px;
-    width: 199px;
-    justify-content: center; 
-    background-position: 0vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 12px;
-    border-top: transparent;
-    border-radius: 10px 10px 40px 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
-    font-size: 28px;
-  }
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 132px;
+  width: 199px;
+  justify-content: center; 
+  background-position: 0vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 12px;
+  border-top: transparent;
+  border-radius: 10px 10px 40px 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+  font-size: 28px;
+}
+
+.categories p , .categText{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+#categOne {
+  background-image: url(../img/art\ 1\ 1\ .jpg);
+}
+#categTwo {
+  background-image: url(../img/fashion\ 2\ .jpg);
+}
+#categThree {
+  background-image: url(../img/parenting\ 1.jpg);
+}
+#categFour {
+  background-image: url(../img/fitness\ 1.jpg);
+}
+#categFive {
+  background-image: url(../img/movies\ 1.jpg);
+}
+#categSix {
+  background-image: url(../img/music.jpg);
+}
+#categSeven {
+  background-image: url(../img/books\ 2.jpg);
+}
+#categEight {
+  background-image: url(../img/religion\ 1.jpg);
+}
+#categNine {
+  background-image: url(../img/sports\ .jpg);
+}
+#categTen {
+  background-image: url(../img/video\ games\ 2.jpg);
+}
 
 /* Card Group Details
   -------------------------------------------------- */    
@@ -413,6 +454,7 @@
   padding-top: 1rem;
   font-size: 16px;
 }
+
 
 /* Logo Image
   -------------------------------------------------- */ 
