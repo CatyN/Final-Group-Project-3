@@ -4,11 +4,23 @@
     --input-padding-y: 0.75rem;
   }
   
+  .header {
+    border-radius: 0px 0px 150px 150px;
+  }
+
   .login,
   .image {
     min-height: 100vh;
   }
-  
+
+  .heroLogo {
+    padding: 2px 10px 2px 10px;
+    border: 3px solid #FFB800;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
   .bg-image {
     background-image: url(../img/sub-category\ hiking.jpg);
     background-size: cover;
@@ -33,7 +45,18 @@
     background-color: #486d87 ;
     border-color: #486d87 ;
   }
+
+  .herop {
+    font-family:'Poppins', sans-serif ;
+    font-weight: bold;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+  }
   
+  .heading {
+    margin-top: 20px;
+  }
 
 
   .form-label-group {
@@ -244,7 +267,7 @@
   background-image: url(../img/music.jpg);
 }
 #categSeven {
-  background-image: url(../img/books\ 2.jpg);
+  background-image: url(../img/books\ 4.jpg);
 }
 #categEight {
   background-image: url(../img/religion\ 1.jpg);
@@ -439,10 +462,12 @@
 
 .card {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   height: 141px;
   align-content: center;
-  background-color: #FFB800;
+  background-position: 0vw;
+  background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center;
   text-align: center;
   background-position: 0vw;
@@ -455,6 +480,41 @@
   font-size: 16px;
 }
 
+.card p {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.card2 p {
+  color: black;
+}
+
+#hiw1 {
+  background-image: url(../img/hiw1.jpg);
+}
+#hiw2 {
+  background-image: url(../img/hiw2.jpg);
+}
+#hiw3 {
+  background-image: url(../img/hiw3.jpg);
+}
+
+.text-center {
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  display: flex;
+  flex-direction: row;
+  font-family:'Poppins', sans-serif ;
+  font-weight: bold;
+  color: white;
+}
+ .two {
+   color: black;
+ }
 
 /* Logo Image
   -------------------------------------------------- */ 
@@ -465,8 +525,45 @@
     background-position: center;
     width:auto;
     height: 62px;
+    
 }
 
+
+/* Are You Ready
+  -------------------------------------------------- */ 
+.discover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.ready p {
+  font-family:'Poppins', sans-serif ;
+  font-weight: bold;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.manymore {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family:'Poppins', sans-serif ;
+  font-weight: bold;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+
+/*Footer
+  -------------------------------------------------- */ 
 
 #footer {
   background-color: #3D6E89;
